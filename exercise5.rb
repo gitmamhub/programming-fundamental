@@ -12,9 +12,13 @@ while true
         travel_distance +=1
       elsif (type_of_move == "run\n")
         travel_distance +=5
-      else
-        puts " you are done for your trip"
+      elsif (type_of_move == "go home\n")
+
+        puts " Done your trip !!! "
         break
+      else
+        puts "choose 'walk/run/go home' "
+
   end
 
   puts " traveled distance #{ travel_distance} km. "
